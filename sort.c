@@ -66,5 +66,5 @@ void my_sort(int *numbers, unsigned count) {
     qsort(numbers, count, sizeof(int), comp);
 }
 
-sorting_fn sorting_fns[] = {bubble_sort, insertion_sort, my_sort};
+sorting_fn sorting_fns[] = {bubble_sort, insertion_sort, my_sort, NULL};
 
