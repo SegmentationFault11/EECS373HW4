@@ -5,3 +5,4 @@ int compare(int a, int b) {
 int comp(const int *a, const int *b) {
     return (*(int*)b - *(int*)a);
 }
+
