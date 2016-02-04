@@ -11,7 +11,7 @@ int compare(int a, int b) {
 }
 
 __attribute__ ((weak))
-int comp(const int *a, const int *b) {
+int comp(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
 }
 
